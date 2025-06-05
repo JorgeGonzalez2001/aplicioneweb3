@@ -8,11 +8,13 @@
 <body>
     <nav>
         <a href="/">Inicio</a>
-        <a href="/notas">Notas</a>
-        <a href="/matricula">Matricula</a>
-        <a href="/editarnotas">Editar notas</a>
+        <a href="/crear">Crear Notas</a>
+        <a href="/editar">Editar Notas</a>
+        <a href="/eliminar">Eliminar Notas</a>
 
 
     </nav>
+
+    {{ $slot }}
 </body>
 </html>
